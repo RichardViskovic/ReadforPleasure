@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="mystyle.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+	 crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<title>Read for Pleasure</title>
+</head>
+
+<body>
+	<div class="content">
+		<div class="top-stuff">
+      <div class="main-image">
+			<img id="girl-reading" src="images\undraw_reading_time_re_phf7.svg" alt="reading time">
+      </div>
+    <nav id = "nav" class = "icons">
+      <h3 onclick = "hideNav()">You will need...</h3><br>
+      <ul>
+        <li id="readingbook" onclick="toggleHide('readingbook')">
+          <i class="fas fa-book-reader fa-fw" ></i>Reading Book
+        </li>
+        <li id="pen" onclick="toggleHide('pen')">
+          <i class="fas fa-pen-alt fa-fw"></i>Pen
+        </li>
+        <li id="exercisebook" onclick="toggleHide('exercisebook')">
+          <i class="fas fa-book fa-fw"></i>Exercise Book
+        </li>
+        <li id="laptop" onclick="toggleHide('laptop')">
+          <i class="fas fa-laptop fa-fw"></i>Device
+        </li>
+        <li id="headphones" onclick="toggleHide('headphones')">
+          <i class="fas fa-headphones fa-fw"></i>Headphones
+        </li>
+        <li id="highlighter" onclick="toggleHide('highlighter')">
+          <i class="fas fa-highlighter fa-fw"></i>Highlighter
+        </li>
+        <li id="book-open" contenteditable="true" onclick="toggleHide('book-open')">
+          <i class="fas fa-book-open fa-fw"></i>Class book
+        </li>
+      </ul>
+      
+    </nav>
+      </div>
+      <div class="bottom-stuff">
+        <div contenteditable="true" class="slogan">15 minutes reading for pleasure.</div>
+        <div id="clock" onclick="toggleHide('clock')" contenteditable="true">0915</div>
+      </div>
+</div>
+    <script src="myscript.js"></script>
+</body>
+</html>
